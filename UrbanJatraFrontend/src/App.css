@@ -1,0 +1,121 @@
+@import "tailwindcss";
+
+
+/* ----------font-------- */
+.stencil {
+  font-family: "Saira Stencil One", sans-serif;
+}
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+}
+
+.outfit {
+  font-family: "Outfit", sans-serif;
+}
+
+/* color */
+:root {
+  --bg-primary: hsl(0, 0%, 90%);
+  --bg-secondary: hsl(0, 0%, 100%);
+  --color-primary: hsl(0, 0%, 12%);
+  --color-secondary: hsl(0, 0%, 37%);
+  --card-shadow: hsla(0, 0%, 0%, 0.1);
+  --input-bg: hsl(0, 0%, 93%);
+  --shadow-1: 10px 10px 40px var(--card-shadow);
+
+  --border-primary: hsl(0, 0%, 80%);
+
+
+  --border-secondary: hsl(0, 0%, 65%);
+
+
+
+}
+
+.bg-primary {
+  background-color: var(--bg-primary);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.bg-secondary {
+  background-color: var(--bg-secondary);
+  transition: background-color 0.3s ease-in-out;
+}
+
+.color-primary {
+  color: var(--color-primary);
+  /* transition: color 0.3s ease-in-out; */
+}
+
+.color-secondary {
+  color: var(--color-secondary);
+  /* transition: color 0.3s ease-in-out; */
+}
+
+.border-primary {
+  border-color: var(--border-primary);
+  transition: border-color 0.3s ease-in-out;
+}
+
+.border-secondary {
+  border-color: var(--border-secondary);
+  transition: border-color 0.3s ease-in-out;
+}
+
+
+
+
+
+.light-mode {
+  --bg-primary: hsl(0, 0%, 90%);
+  --bg-secondary: hsl(0, 0%, 100%);
+  --color-primary: hsl(0, 0%, 12%);
+  --color-secondary: hsl(0, 0%, 37%);
+  --card-shadow: hsla(0, 0%, 0%, 0.1);
+  --input-bg: hsl(0, 0%, 93%);
+  --shadow-1: 10px 10px 40px var(--card-shadow);
+  --border-primary: hsl(0, 0%, 90%);
+  --border-secondary: hsl(0, 0%, 65%);
+  /* 90/65 */
+
+}
+
+.dark-mode {
+  --bg-primary: hsl(0, 0%, 12%);
+  --bg-secondary: hsl(0, 0%, 19%);
+  --color-primary: hsl(0, 0%, 100%);
+  --color-secondary: hsl(0, 0%, 62%);
+  --card-shadow: hsla(0, 0%, 0%, 0.4);
+  --input-bg: hsl(0, 0%, 16%);
+  --shadow-1: 10px 10px 40px var(--card-shadow);
+  --border-primary: hsl(0, 0%, 25%);
+  --border-secondary: hsl(0, 0%, 35%);
+
+}
+
+/* header section */
+.menu-on {
+  left: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+.menu-off {
+  left: -100%;
+  transition: all 0.3s ease-in-out;
+}
+
+/* cart section sliding */
+.cart-on {
+  left: 0%;
+  transition: all 0.3s ease-in-out;
+}
+
+.cart-off {
+  left: -100%;
+  transition: all 0.3s ease-in-out;
+}
